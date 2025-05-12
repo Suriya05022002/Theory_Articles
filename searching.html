@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Algorithms - Data Structures Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <nav class="topnav">
+        <div class="logo">Gowthamraj Network</div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="arrays.html">Arrays</a>
+            <a href="linked-lists.html">Linked Lists</a>
+            <a href="stacks-queues.html">Stacks & Queues</a>
+            <a href="trees.html">Trees</a>
+            <a href="graphs.html">Graphs</a>
+            <a href="searching.html" class="active">Searching</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </a>
+    </nav>
+
+    <div class="sidebar">
+        <a href="#searching-intro" class="active">Searching Introduction</a>
+        <a href="#linear-search">Linear Search</a>
+        <a href="#binary-search">Binary Search</a>
+        <a href="#implementation">Implementation</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Searching Algorithms</h1>
+        
+        <section id="searching-intro">
+            <div class="topic-box">
+                <h2>Searching Algorithms</h2>
+            </div>
+            
+            <div class="definition-box">
+                <p>A search algorithms is a step-by-step procedure using to locate specific data among collection of data.</p>
+            </div>
+            
+            <div class="topic-box">
+                <h2>Types of search algorithms with the complexity</h2>
+            </div>
+        </section>
+        
+        <section id="linear-search">
+            <div class="search-algorithm">
+                <h3>1. Linear Search:</h3>
+                <p>A linear search or sequential search is a method for finding an element within a list. It is sequentially checks each element of the list until a match is found or the whole list has been searched.</p>
+                
+                <div class="complexity-box">
+                    <p>C(n)= n/2</p>
+                    <p class="complexity-label">← Complexity of linear Search.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="binary-search">
+            <div class="search-algorithm">
+                <h3>2. Binary Search:</h3>
+                <p>In Binary search approach the element is always searched in the middle of a portion of an array.</p>
+                <p>Binary search can be implemented only on a stored list of items.</p>
+                <p>If the element are not sorted already, we need to sort them first.</p>
+                
+                <div class="complexity-box">
+                    <p>C(n)= log₂n</p>
+                    <p class="complexity-label">← Complexity of Binary search.</p>
+                </div>
+            </div>
+        </section>
+               <div class="navigation-buttons">
+            <a href="graphs.html" class="btn">← Previous: Graphs</a>
+            <a href="index.html" class="btn">Back to Home</a>
+        </div>
+    </div>
+
+    <footer>
+       <p>Data Structures Tutorial © 2025 | Gowthamraj Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

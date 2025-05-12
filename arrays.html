@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays - Data Structures Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <nav class="topnav">
+       <div class="logo">Gowthamraj Network</div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="arrays.html" class="active">Arrays</a>
+            <a href="linked-lists.html">Linked Lists</a>
+            <a href="stacks-queues.html">Stacks & Queues</a>
+            <a href="trees.html">Trees</a>
+            <a href="graphs.html">Graphs</a>
+            <a href="searching.html">Searching</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </a>
+    </nav>
+
+    <div class="sidebar">
+        <a href="#array-intro" class="active">Array Introduction</a>
+        <a href="#array-definition">Definition</a>
+        <a href="#array-representation">Representation</a>
+        <a href="#array-types">Types of Arrays</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Arrays</h1>
+        
+        <section id="array-intro">
+            <div class="topic-box">
+                <h2>Array</h2>
+            </div>
+            
+            <div class="definition-box">
+                <p>Array is a type of linear Data structure <strong>OR</strong></p>
+                <p>Array is a collection of more than one data but all the data items are same data types, & stored that data in a computer in a contiguous memory location.</p>
+            </div>
+        </section>
+
+        <section id="array-representation">
+            <div class="array-visual">
+                <div class="array-box">
+                    <div class="array-cell">...</div>
+                    <div class="array-cell">1</div>
+                    <div class="array-cell">2</div>
+                    <div class="array-cell">3</div>
+                    <div class="array-cell">4</div>
+                    <div class="array-cell">5</div>
+                    <div class="array-cell">...</div>
+                </div>
+            </div>
+            
+            <div class="memory-note">
+                <p><strong>1 Bytes = 8 bit</strong></p>
+                <p><strong>Memory</strong> is a long tap of Bytes.</p>
+            </div>
+        </section>
+
+        <section id="array-types">
+            <div class="topic-box">
+                <h2>Types of Array:</h2>
+            </div>
+            
+            <div class="array-type">
+                <h3>1. One Dimensional Array:</h3>
+                <p>The array with only subscript that array is called as One Dimensional Array.</p>
+                <p><strong>Example:</strong> <code>int a[5];</code> <span class="highlight">← subscript.</span></p>
+            </div>
+            
+            <div class="array-type">
+                <h3>2. Two Dimensional Array:</h3>
+                <p>The array with two subscript that array is called as Two Dimensional Array.</p>
+                <p><strong>Example:</strong> <code>int a[5][5];</code> <span class="highlight">← subscript.</span></p>
+            </div>
+            
+            <div class="array-type">
+                <h3>3. Multi-Dimensional Array:</h3>
+                <p>The array with more than two subscript that array is called as Multi-Dimensional Array.</p>
+            </div>
+            
+            <div class="code-example">
+                <h3>Example: Creating and Using Arrays in JavaScript</h3>
+                <pre><code>// One-dimensional array
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers[0]); // Output: 1
+
+// Two-dimensional array
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+console.log(matrix[1][1]); // Output: 5
+
+// Iterating through an array
+for(let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}</code></pre>
+            </div>
+        </section>
+
+        <div class="navigation-buttons">
+            <a href="index.html" class="btn">← Previous: Introduction</a>
+            <a href="linked-lists.html" class="btn">Next: Linked Lists →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Data Structures Tutorial © 2025 | Gowthamraj Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

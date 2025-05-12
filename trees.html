@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trees - Data Structures Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <nav class="topnav">
+       <div class="logo">Gowthamraj Network</div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="arrays.html">Arrays</a>
+            <a href="linked-lists.html">Linked Lists</a>
+            <a href="stacks-queues.html">Stacks & Queues</a>
+            <a href="trees.html" class="active">Trees</a>
+            <a href="graphs.html">Graphs</a>
+            <a href="searching.html">Searching</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </a>
+    </nav>
+
+    <div class="sidebar">
+        <a href="#trees-intro" class="active">Trees Introduction</a>
+        <a href="#binary-tree">Binary Trees</a>
+        <a href="#tree-traversal">Tree Traversal</a>
+        <a href="#implementation">Implementation</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Trees</h1>
+        
+        <section id="trees-intro">
+            <div class="topic-box">
+                <h2>Trees</h2>
+            </div>
+            
+            <div class="definition-box">
+                <p>Trees are non-linear data structure where data are stored or data containing a hierarchical relationship b/w elements.</p>
+                <p>A binary tree is defined as a finite set of elements called nodes.</p>
+            </div>
+        </section>
+        
+     <div class="image-container">
+    <img src="images/download.png" alt="Tree Diagram">
+</div>
+
+        
+        <section id="tree-traversal">
+            <div class="topic-box">
+                <h2>Traversing Binary Trees</h2>
+            </div>
+            
+            <p>There are three ways of traversing a binary tree T with root R.</p>
+            
+            <div class="traversal-methods">
+                <div class="traversal-method">
+                    <h3>Preorder</h3>
+                    <ol>
+                        <li>Process the root R</li>
+                        <li>Traverse the left subtree of R in Preorder</li>
+                        <li>Traverse the Right subtree in Preorder</li>
+                    </ol>
+                </div>
+                
+                <div class="traversal-method">
+                    <h3>Inorder</h3>
+                    <ol>
+                        <li>Traverse left subtree</li>
+                        <li>Process the root R</li>
+                        <li>Traverse Right subtree</li>
+                    </ol>
+                </div>
+                
+                <div class="traversal-method">
+                    <h3>Postorder</h3>
+                    <ol>
+                        <li>Traverse left subtree</li>
+                        <li>Traverse Right subtree</li>
+                        <li>Process the root R</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    
+
+        <div class="navigation-buttons">
+            <a href="stacks-queues.html" class="btn">← Previous: Stacks & Queues</a>
+            <a href="graphs.html" class="btn">Next: Graphs →</a>
+        </div>
+    </div>
+
+    <footer>
+       <p>Data Structures Tutorial © 2025 | Gowthamraj Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
