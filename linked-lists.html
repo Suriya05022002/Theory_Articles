@@ -65,92 +65,55 @@
                 <div class="text">Address</div>
             </div>
         </section>
+<section id="linked-list-types">
+    <div class="topic-box">
+        <h2>Types of linked list</h2>
+    </div>
 
-        <section id="linked-list-types">
-            <div class="topic-box">
-                <h2>Types of linked list</h2>
-            </div>
-            
-            <div class="linked-list-type">
-                <h3>1. Singly linked list:</h3>
-                <div class="ll-visual">
-                    <div class="node">
-                        <div class="data">7</div>
-                        <div class="pointer">300</div>
-                    </div>
-                    <div class="arrow">→</div>
-                    <div class="node">
-                        <div class="data">8</div>
-                        <div class="pointer">Null</div>
-                    </div>
-                </div>
-                <div class="address-labels">
-                    <span>200</span>
-                    <span>300</span>
-                </div>
-            </div>
-            
-            <div class="linked-list-type">
-                <h3>2. Doubly linked list:</h3>
-                <div class="ll-visual">
-                    <div class="node doubly">
-                        <div class="prev-pointer"></div>
-                        <div class="data">2</div>
-                        <div class="next-pointer">200</div>
-                    </div>
-                    <div class="arrow double">
-                        <div class="forward">→</div>
-                        <div class="backward">←</div>
-                    </div>
-                    <div class="node doubly">
-                        <div class="prev-pointer">100</div>
-                        <div class="data">3</div>
-                        <div class="next-pointer">NULL</div>
-                    </div>
-                </div>
-                <div class="address-labels">
-                    <span>100</span>
-                    <span>200</span>
-                </div>
-            </div>
-            
-            <div class="linked-list-type">
-                <h3>3. Circular linked list:</h3>
-                <div class="ll-visual circular">
-                    <div class="node">
-                        <div class="data">2</div>
-                        <div class="pointer">200</div>
-                    </div>
-                    <div class="arrow">→</div>
-                    <div class="node">
-                        <div class="data">3</div>
-                        <div class="pointer">300</div>
-                    </div>
-                    <div class="arrow">→</div>
-                    <div class="node">
-                        <div class="data">4</div>
-                        <div class="pointer">100</div>
-                    </div>
-                    <div class="circular-arrow">↩</div>
-                </div>
-                <div class="address-labels">
-                    <span>100</span>
-                    <span>200</span>
-                    <span>300</span>
-                </div>
-            </div>
-            
-            <div class="linked-list-type">
-                <h3>4. Doubly Circular linked list:</h3>
-                <p>A combination of doubly linked list and circular linked list.</p>
-            </div>
-        </section>
+    <!-- Singly Linked List -->
+    <div class="linked-list-type">
+        <h3>1. Singly Linked List:</h3>
+        <p>A singly linked list is a linear data structure where each element (node) contains a data part and a pointer to the next node in the sequence. The last node points to NULL.</p>
+        <div class="image-container">
+            <img src="images/Singly-linked-list.png" alt="Singly Linked List">
+        </div>
+    </div>
+
+    <!-- Doubly Linked List -->
+    <div class="linked-list-type">
+        <h3>2. Doubly Linked List:</h3>
+        <p>A doubly linked list contains nodes with three fields: a data part, a pointer to the next node, and a pointer to the previous node. This allows traversal in both directions.</p>
+        <div class="image-container">
+            <img src="images/double.png" alt="Doubly Linked List">
+        </div>
+    </div>
+
+    <!-- Circular Linked List -->
+    <div class="linked-list-type">
+        <h3>3. Circular Linked List:</h3>
+        <p>In a circular linked list, the last node points back to the first node, forming a circle. It can be singly or doubly linked. There is no NULL reference in the last node.</p>
+        <div class="image-container">
+            <img src="images/circular.png" alt="Circular Linked List">
+        </div>
+    </div>
+
+    <!-- Doubly Circular Linked List -->
+    <div class="linked-list-type">
+        <h3>4. Doubly Circular Linked List:</h3>
+        <p>A doubly circular linked list is a combination of a doubly linked list and a circular linked list. Each node points to both its previous and next node, and the last node links back to the first and vice versa.</p>
+        <div class="image-container">
+            <img src="images/double circular.png" alt="Doubly Circular Linked List">
+        </div>
+    </div>
+</section>
+
 
         <div class="navigation-buttons">
             <a href="arrays.html" class="btn">← Previous: Arrays</a>
             <a href="stacks-queues.html" class="btn">Next: Stacks & Queues →</a>
         </div>
     </div>
+    
 
     <footer>
        <p>Data Structures Tutorial © 2025 | Gowthamraj Network</p>
